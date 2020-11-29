@@ -22,14 +22,14 @@ const MainSelector = () =>(
 			<ul>
 				<li><Link to="/jackets">Jackets</Link></li>
 				<li><Link to="/shirts">Shirts</Link></li>
-				<li><Link to="/accesories">Accesories</Link></li>
+				<li><Link to="/accessories">Accessories</Link></li>
 			</ul>
 		</nav>
 	<Switch>
 		<Route path="/jackets">
 			<App url={CATEGORY_URL_JACKETS} category={CATEGORY_JACKETS}/>
 		</Route>
-		<Route path="/accesories">
+		<Route path="/accessories">
 			<App url={CATEGORY_URL_ACCESSORIES} category={CATEGORY_ACCESSORIES}/>
 		</Route>
 		<Route path="/shirts">
